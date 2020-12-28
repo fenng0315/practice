@@ -1,4 +1,4 @@
-#include <stdio.h>	
+#include <stdio.h>//该程序与GOOD版相比，未使用int型数组（更复杂），同时因为使用了char型使得其无法检测负数；其余问题还如全部输入奇数时无换行。 
 
 int main(){
 	int n = 0;//外层计数循环
