@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//此版本有问题！！ 
 
 int main(){
 	int n = 0;
@@ -38,7 +38,7 @@ int main(){
 		}
 		else{
 			printf("ERROR\n");
-		}
+		}//此处出错 
 		
 		num = 0;
 		length = 0;		
